@@ -5,7 +5,7 @@ $host = 'localhost';
 $port = '3300';
 $dbname = 'contact_form';
 $user = 'root';
-$pass = ''; // mot de passe MySQL si défini
+$pass = ''; 
 
 try {
     $pdo = new PDO("mysql:host=$host;port=$port;dbname=$dbname;charset=utf8", $user, $pass);
